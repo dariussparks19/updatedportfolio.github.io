@@ -125,7 +125,7 @@ const Code = ({coder, lang, frontend, desc}) => {
             <p>Languages: {lang}</p>
             <p>Front-End: {frontend}</p>
             <p>Description: {desc}</p>
-            <a href="http://dariussparks19.github.io" target="blank"><button>Visit project</button></a>
+            <a href="https://dariussparks19.github.io/musicapp/" target="blank"><button>Visit project</button></a>
         </CodeStyle>
     )
 }
