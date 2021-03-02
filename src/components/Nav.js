@@ -11,13 +11,13 @@ const Nav = () =>{
     return(
         <StyledNav>
             <h1>
-                <Link id="logo" to="/">
+                <Link id="logo" to="/portfolio">
                     Portfolio 
                 </Link>
             </h1>
             <ul>
                 <li>
-                    <Link to="/">
+                    <Link to="/portfolio">
                         About Me
                     </Link>
                     <Line 
