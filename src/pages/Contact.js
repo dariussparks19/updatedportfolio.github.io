@@ -1,5 +1,7 @@
 import React from "react";
-import facebook from "../imgs/facebook.png";
+import email from "../imgs/email.png";
+import linkedin from "../imgs/linkedin.png";
+import github from "../imgs/github.png";
 //Animation
 import {motion} from 'framer-motion';
 import {pageAnimation, titleAnim} from "../animations";
@@ -40,10 +42,14 @@ const Contact = () => {
                         <Circle/>
                             <h2>Links:</h2>
                             <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=dariussparks19@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Greetings," target="blank">
-                                <img src={facebook}/>
+                                <img src={email}/>
                             </a>
-                            <a href="http://linkedin.com/in/dariusjsparks408/" target="blank">LinkedIn</a> 
-                            <a href="https://github.com/dariussparks19" target="blank">GitHub</a>            
+                            <a href="http://linkedin.com/in/dariusjsparks408/" target="blank">
+                                <img src={linkedin}/>
+                            </a> 
+                            <a href="https://github.com/dariussparks19" target="blank">
+                                <img src={github}/>    
+                            </a>            
                     </Social>
                 </Hide>
             </div>
@@ -97,7 +103,7 @@ const Social = styled(motion.div)`
         font-size: 2rem;
     }
     img{
-        width: 50px;
+        width: 25px;
     }
 `
 
