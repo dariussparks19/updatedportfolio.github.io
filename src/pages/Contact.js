@@ -1,4 +1,5 @@
 import React from "react";
+import facebook from "../imgs/facebook.png";
 //Animation
 import {motion} from 'framer-motion';
 import {pageAnimation, titleAnim} from "../animations";
@@ -24,7 +25,6 @@ const Contact = () => {
                     <Social variants={titleAnim}>
                         <Circle/>
                             <h2>Info:</h2>
-                            <p>P: (408) 838-9580</p>
                             <p>San Jose, CA</p>
                     </Social>
                 </Hide>
@@ -39,7 +39,9 @@ const Contact = () => {
                     <Social variants={titleAnim}>
                         <Circle/>
                             <h2>Links:</h2>
-                            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=dariussparks19@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Greetings," target="blank">Email</a>
+                            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=dariussparks19@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Greetings," target="blank">
+                                <img src={facebook}/>
+                            </a>
                             <a href="http://linkedin.com/in/dariusjsparks408/" target="blank">LinkedIn</a> 
                             <a href="https://github.com/dariussparks19" target="blank">GitHub</a>            
                     </Social>
@@ -93,6 +95,9 @@ const Social = styled(motion.div)`
     a,p{
         padding: 1rem;
         font-size: 2rem;
+    }
+    img{
+        width: 50px;
     }
 `
 

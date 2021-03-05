@@ -10,10 +10,8 @@ const Nav = () =>{
 
     return(
         <StyledNav>
-            <h1>
-                <Link id="logo" to="/portfolio/">
-                    Portfolio 
-                </Link>
+            <h1 id="logo">
+                    Portfolio
             </h1>
             <ul>
                 <li>
@@ -62,6 +60,9 @@ const StyledNav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
+    h1{
+        color: white
+    }
     a{
         color: white;
         text-decoration: none;
@@ -74,6 +75,7 @@ const StyledNav = styled.nav`
         font-size: 1.5rem;
         font-weight: lighter;
         font-family: 'Lobster', cursive;
+        cursor: default;
     }
     li{
         padding-left: 10rem;

@@ -29,9 +29,9 @@ const MyProjects = () => {
                 <Frame4 variants={slider}></Frame4>
             </motion.div>
             <Project>
+            <Link to="/projects/waveplayer">
                 <motion.h2 variants={fade}>Wave Music Player</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                <Link to="/projects/waveplayer">
                     <Hide>
                         <motion.img variants={photoAnim} src={musicplayer} alt="musicplayer" />
                     </Hide>

@@ -84,10 +84,11 @@ const Cards = styled.div`
 `
 
 const Card = styled.div`
-    flex-basis: 20rem;
+    flex-basis: 26rem;
     .icon{
         display: flex;
         align-items: center;
+        padding: 0.5rem;
         h3{
             margin-left: 1rem;
             background: white;
@@ -95,6 +96,9 @@ const Card = styled.div`
             padding: 1rem;
             border-radius: 5px;
         }
+    }
+    p{
+        text-align:center;
     }
 `
 

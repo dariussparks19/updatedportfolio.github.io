@@ -41,15 +41,14 @@ const AboutSection = () => {
                 <motion.h2
                 variants={fade}
                 >
-                        GOAL & DRIVE
+                        Passion & Ambition
                 </motion.h2>
                 <motion.p 
                 variants={fade}
                 >
-                        Junior software developer seeking opportunities to improve my technical acumen and jumpstart my career in <span> Front-End Development</span>. 
+                        Junior software developer consistently improving technical acumen to jumpstart a career in <span> Front-End Development</span>. 
                         Ability to build web applications utilizing <span>React</span> with advanced skills in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> and <span>Pyt</span><span>hon</span>. 
-                        Enjoy working with a collaborative company that advocates in making a difference in the community and the world.
-                </motion.p>
+                        Enjoy working with a collaborative company that advocates in making a difference in the community and the world.                </motion.p>
                 <Link to="/contact">
                     <motion.button
                         variants={fade}

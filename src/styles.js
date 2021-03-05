@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 
 export const About = styled(motion.div)`
-    min-height: 90vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
