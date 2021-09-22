@@ -44,7 +44,7 @@ const Contact = () => {
                             <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=dariussparks19@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Greetings," target="blank">
                                 <img src={email}/>
                             </a>
-                            <a href="http://linkedin.com/in/dariusjsparks408/" target="blank">
+                            <a href="http://linkedin.com/in/dariussparks19/" target="blank">
                                 <img src={linkedin}/>
                             </a> 
                             <a href="https://github.com/dariussparks19" target="blank">
