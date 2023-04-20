@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 //images
 import musicplayer from '../imgs/musicplayer.png';
 import musicplayer2 from '../imgs/musicplayer2.png';
+import card from '../imgs/card.jpeg'
 //Animations
 
 import {motion} from 'framer-motion';
@@ -38,6 +39,17 @@ const MyProjects = () => {
                 </Link>
             </Project>
             <ScrollTop/>
+            <Project>
+            <Link to="/projects/frontendmentor">
+                <motion.h2 variants={fade}>Frontend Mentor Project</motion.h2>
+                <motion.div variants={lineAnim} className="line"></motion.div>
+                    <Hide>
+                        <motion.img variants={photoAnim} src={card} alt="musicplayer" />
+                    </Hide>
+                </Link>
+            </Project>
+            <ScrollTop/>
+
         </Projects>
     );
 };

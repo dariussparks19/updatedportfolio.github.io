@@ -1,6 +1,7 @@
 //Import Images
 import musicplayer from './imgs/musicplayer.png';
 import musicplayer2 from './imgs/musicplayer2.png';
+import card from './imgs/card.jpeg'
 
 export const ProjectState = () => {
     return [
@@ -18,5 +19,20 @@ export const ProjectState = () => {
                 },
             ],
         },
+        {
+            title: "Frontend Mentor Practice",
+            mainImg: card,
+            url: "/projects/frontendmentor",
+            secondImg: card,
+            code: [
+                {
+                    coder: "Darius Sparks",
+                    lang: "HTML, CSS, Javascript",
+                    frontend: "React",
+                    desc: "Practice in UI using only HTML & CSS."
+                },
+            ],
+        },
+        
     ]
 }
